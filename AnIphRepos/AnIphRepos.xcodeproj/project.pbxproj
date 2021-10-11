@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BE6368EE6C59334DDED5EA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE6CF73E4501CC4203A987 /* Tests_macOS.swift */; };
+		F9BE6650E2F34B2E68C77B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE677591BBEDF00BB8B8DD /* Assets.xcassets */; };
+		F9BE67CF5F686143FD35D732 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE6D85A338449795314A89 /* ContentView.swift */; };
+		F9BE68912BB95970C538D999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE6D85A338449795314A89 /* ContentView.swift */; };
+		F9BE6A0FADB2FF7BA0250399 /* AnIphReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE67F6221FC0974801ED92 /* AnIphReposApp.swift */; };
+		F9BE6A4FC906160E9CFFFDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BE677591BBEDF00BB8B8DD /* Assets.xcassets */; };
+		F9BE6C6AC84D302CD1BEB099 /* AnIphReposApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE67F6221FC0974801ED92 /* AnIphReposApp.swift */; };
+		F9BE6CD87E46EFD652A37AD3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE6250143FF7C2D2071C42 /* Tests_iOS.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BE68F478753D9A9E328395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE687F42A3AE5E48C67173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE63EA3EE909F48B23056A;
+			remoteInfo = "AnIphRepos (iOS)";
+		};
+		F9BE6D4477C29756250BCA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BE687F42A3AE5E48C67173 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BE68D415405EFFA38C539E;
+			remoteInfo = "AnIphRepos (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9BE6250143FF7C2D2071C42 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		F9BE6410818BE7B8FA5C8135 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F9BE64E17BB5CF76571BD7F8 /* AnIphRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnIphRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE651D683917502A861D6D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE677591BBEDF00BB8B8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BE67F6221FC0974801ED92 /* AnIphReposApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnIphReposApp.swift; sourceTree = "<group>"; };
+		F9BE6A09AE99A74EC9FBF93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F9BE6A17C3081C471B05F06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F9BE6B0CD9A8198CEBC51102 /* AnIphRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnIphRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BE6C4266ACBAD1ED2538C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F9BE6CF73E4501CC4203A987 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		F9BE6D1F0EAB1F3D4191FE81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		F9BE6D85A338449795314A89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9BE6EC03B8D1736B5B7CFEF /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BE60B52F7D9665F5484707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE62E94F4D266A86224388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE676FCB591EA1757F8F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE6AEE08E34212E53F687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BE61052A3012049A2294C1 = {
+			isa = PBXGroup;
+			children = (
+				F9BE6B5652A90C23C3E201E7 /* Products */,
+				F9BE6842D442AF159341D9B2 /* Shared */,
+				F9BE643E91982446F598BE8C /* iOS */,
+				F9BE6D20310AF15ECAF1CE68 /* macOS */,
+				F9BE69DECE295E4FC10030EC /* Tests iOS */,
+				F9BE6EF00A912029CBBF9694 /* Tests macOS */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BE643E91982446F598BE8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE6A09AE99A74EC9FBF93C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F9BE6842D442AF159341D9B2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE677591BBEDF00BB8B8DD /* Assets.xcassets */,
+				F9BE67F6221FC0974801ED92 /* AnIphReposApp.swift */,
+				F9BE6D85A338449795314A89 /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F9BE69DECE295E4FC10030EC /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE6C4266ACBAD1ED2538C1 /* Info.plist */,
+				F9BE6250143FF7C2D2071C42 /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		F9BE6B5652A90C23C3E201E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE64E17BB5CF76571BD7F8 /* AnIphRepos.app */,
+				F9BE6B0CD9A8198CEBC51102 /* AnIphRepos.app */,
+				F9BE6EC03B8D1736B5B7CFEF /* Tests iOS.xctest */,
+				F9BE651D683917502A861D6D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BE6D20310AF15ECAF1CE68 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE6A17C3081C471B05F06E /* Info.plist */,
+				F9BE6410818BE7B8FA5C8135 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F9BE6EF00A912029CBBF9694 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9BE6D1F0EAB1F3D4191FE81 /* Info.plist */,
+				F9BE6CF73E4501CC4203A987 /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BE6074009CA3F26ECBC3BD /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE664693F110140D22C375 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				F9BE6025E26E487CCF7F3ABC /* Sources */,
+				F9BE62E94F4D266A86224388 /* Frameworks */,
+				F9BE6CCA9775B1B251D573A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE660029371D6685225A83 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = F9BE6EC03B8D1736B5B7CFEF /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F9BE63EA3EE909F48B23056A /* AnIphRepos (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE65B658CA074EE83292AA /* Build configuration list for PBXNativeTarget "AnIphRepos (iOS)" */;
+			buildPhases = (
+				F9BE675EB9926F64426AB8DB /* Sources */,
+				F9BE60B52F7D9665F5484707 /* Frameworks */,
+				F9BE697D751C3C9E288990E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnIphRepos (iOS)";
+			productName = "AnIphRepos (iOS)";
+			productReference = F9BE64E17BB5CF76571BD7F8 /* AnIphRepos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE68D415405EFFA38C539E /* AnIphRepos (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE6581B60E709C6A30B9F4 /* Build configuration list for PBXNativeTarget "AnIphRepos (macOS)" */;
+			buildPhases = (
+				F9BE613953D2D0008AA1F2A1 /* Sources */,
+				F9BE676FCB591EA1757F8F74 /* Frameworks */,
+				F9BE6BF57B17EBDFF39F7F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnIphRepos (macOS)";
+			productName = "AnIphRepos (macOS)";
+			productReference = F9BE6B0CD9A8198CEBC51102 /* AnIphRepos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BE6BBBE1A74DFEC5CCA7FF /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BE6474E7942007A79B7997 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				F9BE6C6A2818DA998A274C97 /* Sources */,
+				F9BE6AEE08E34212E53F687B /* Frameworks */,
+				F9BE6EB20F7001D68B6DEF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BE6A94E38BE576802C7388 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = F9BE651D683917502A861D6D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BE687F42A3AE5E48C67173 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F9BE6FC5B6486148D863B65C /* Build configuration list for PBXProject "AnIphRepos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9BE61052A3012049A2294C1;
+			productRefGroup = F9BE6B5652A90C23C3E201E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BE63EA3EE909F48B23056A /* AnIphRepos (iOS) */,
+				F9BE68D415405EFFA38C539E /* AnIphRepos (macOS) */,
+				F9BE6074009CA3F26ECBC3BD /* Tests iOS */,
+				F9BE6BBBE1A74DFEC5CCA7FF /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BE697D751C3C9E288990E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6A4FC906160E9CFFFDB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE6BF57B17EBDFF39F7F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6650E2F34B2E68C77B4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE6CCA9775B1B251D573A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE6EB20F7001D68B6DEF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BE6025E26E487CCF7F3ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6CD87E46EFD652A37AD3 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE613953D2D0008AA1F2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6A0FADB2FF7BA0250399 /* AnIphReposApp.swift in Sources */,
+				F9BE68912BB95970C538D999 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE675EB9926F64426AB8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6C6AC84D302CD1BEB099 /* AnIphReposApp.swift in Sources */,
+				F9BE67CF5F686143FD35D732 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BE6C6A2818DA998A274C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BE6368EE6C59334DDED5EA /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BE660029371D6685225A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE63EA3EE909F48B23056A /* AnIphRepos (iOS) */;
+			targetProxy = F9BE68F478753D9A9E328395 /* PBXContainerItemProxy */;
+		};
+		F9BE6A94E38BE576802C7388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BE68D415405EFFA38C539E /* AnIphRepos (macOS) */;
+			targetProxy = F9BE6D4477C29756250BCA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9BE61F778CAF794C45A9903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.florianten.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AnIphRepos (macOS)";
+			};
+			name = Debug;
+		};
+		F9BE620D6ECBF6B61BFDCEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F9BE6244C075322E95964CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.florianten.AnIphRepos;
+				PRODUCT_NAME = AnIphRepos;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9BE63C91232A10E703284C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9BE6450B0FE194AC884705A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.florianten.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AnIphRepos (iOS)";
+			};
+			name = Release;
+		};
+		F9BE65848C41942DE64BF5DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.florianten.AnIphRepos;
+				PRODUCT_NAME = AnIphRepos;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BE65EA06C2A71FFB6295EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.florianten.AnIphRepos;
+				PRODUCT_NAME = AnIphRepos;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9BE662D09D63650FCCB7F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.florianten.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AnIphRepos (iOS)";
+			};
+			name = Debug;
+		};
+		F9BE6D4A15A00FA543755EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.florianten.AnIphRepos;
+				PRODUCT_NAME = AnIphRepos;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BE6FC23DF6820DAD156F8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.florianten.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AnIphRepos (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BE6474E7942007A79B7997 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE61F778CAF794C45A9903 /* Debug */,
+				F9BE6FC23DF6820DAD156F8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE6581B60E709C6A30B9F4 /* Build configuration list for PBXNativeTarget "AnIphRepos (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE6244C075322E95964CEC /* Debug */,
+				F9BE65EA06C2A71FFB6295EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE65B658CA074EE83292AA /* Build configuration list for PBXNativeTarget "AnIphRepos (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE6D4A15A00FA543755EB5 /* Debug */,
+				F9BE65848C41942DE64BF5DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE664693F110140D22C375 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE662D09D63650FCCB7F59 /* Debug */,
+				F9BE6450B0FE194AC884705A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BE6FC5B6486148D863B65C /* Build configuration list for PBXProject "AnIphRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BE63C91232A10E703284C7 /* Debug */,
+				F9BE620D6ECBF6B61BFDCEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BE687F42A3AE5E48C67173 /* Project object */;
+}
